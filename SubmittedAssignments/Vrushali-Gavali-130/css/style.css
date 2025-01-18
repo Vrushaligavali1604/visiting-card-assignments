@@ -1,0 +1,345 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.card-wrapper {
+  position: relative;
+  width: 88.9mm;
+  height: 50.8mm;
+  background-color: white;
+  border: 1px solid #ccc;
+  overflow: hidden;
+
+}
+
+.card1-background {
+  /* Customize background styling as needed */
+  background-color: #53140F;
+  height: 100%;
+}
+
+.left-band {
+  left: 0mm;
+  top: 12mm;
+  width: 5mm;
+  height: 27mm;
+  background: #EDB96E !important;
+  position: absolute;
+  z-index: 1;
+}
+
+.right-band {
+  left: 20mm;
+  top: 45.5mm;
+  width: 50mm;
+  height: 5mm;
+  background: #EDB96E !important;
+  position: absolute;
+  z-index: 1;
+}
+
+.top-band {
+  left: 20mm;
+  top: 0;
+  width: 50mm;
+  height: 5mm;
+  background: #EDB96E !important;
+  position: absolute;
+  z-index: 1;
+}
+
+.bottom-band {
+  left: 83mm;
+  top: 12mm;
+  width: 7mm;
+  height: 27mm;
+  background: #EDB96E !important;
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+.card1-content {
+  margin-left: 23px;
+  position: absolute;
+  top: 23mm;
+  left: 23mm;
+  margin-top: 7pt;
+  transform: translate(-30%, -50%);
+  text-align: start;
+  color: #333;
+  border: 0.5mm solid #EDB96E;
+  width: 74mm;
+  height: 35mm;
+
+}
+
+.web {
+  top: 50mm;
+  left: 30mm;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 3mm;
+  color: white;
+}
+
+.party-name{
+  position:relative;
+  text-transform: uppercase;
+  color: #FDCD8B;
+  left: 26mm;
+  top: 19mm;
+  font-size: 3mm;
+}
+
+.party-job-title {
+  font-family: serif;
+  font-optical-sizing: auto;
+  font-size: 1.4em;
+  margin-top: -1pt;
+}
+
+.company {
+  position: relative;
+  top: 25mm;
+  left: 23mm;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: inherit;
+  width: 168pt;
+  font-size: 3mm;
+  color: white;
+}
+
+.party-phone {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  margin-top: 16pt;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.party-email {
+  font-weight: bolder;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  position: relative;
+  top: 0pt;
+  left: -14pt;
+}
+
+.qr-code{
+  top: -3mm;
+  left: 30mm;
+  position:relative;
+}
+
+.name {
+  position:relative;
+  text-transform: uppercase;
+  color: #FDCD8B;
+  left: 25mm;
+  top: -13mm;
+  font-size: 3mm;
+}
+
+.slogan {
+  position:relative;
+  text-transform: uppercase;
+  color: #CC9A93;
+  left: 27mm;
+  top: -13.5mm;
+  font-size:2mm;
+}
+
+.party-phone-lable {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+  padding-left: 3pt;
+
+}
+
+.party-phone-number {
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+
+}
+
+.party-email-lable {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+  padding-left: 3pt;
+}
+
+.party-email-address {
+  font-weight: normal;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1em;
+  margin-top: -1pt;
+
+}
+
+.card2-background {
+  background-color: white;
+  height: 100%;
+}
+
+.Right {
+  position: absolute;
+  left: 0mm;
+  top: 0;
+  width: 40mm;
+  height: 52mm;
+  background: #EDB96E !important;
+}
+
+.tri {
+  position: absolute;
+  transform-origin: bottom right;
+  z-index: 1;
+  overflow: hidden;
+  border-top: 52mm solid transparent;
+  border-left: 20mm solid #EDB96E;
+  top: 0mm;
+  left: 40mm;
+}
+
+.left {
+  position: absolute;
+  left: 40mm;
+  top: 0;
+  width: 60mm;
+  height: 52mm;
+  background: #53140F !important;
+}
+
+.band1 {
+  width: 7mm;
+  height: 37mm;
+  position: absolute;
+  left: 47mm;
+  z-index: 1;
+  top: 7mm;
+  background-color: #53140F !important;
+  transform: rotate(-21deg);
+}
+
+.band2 {
+  left: 51mm;
+  top: 6.5mm;
+  width: 1mm;
+  height: 37.5mm;
+  background: #EDB96E !important;
+  transform: rotate(-21deg);
+  position: absolute;
+  z-index: 1;
+}
+
+.card2-content {
+  position: absolute;
+  transform: translate(-30%, -50%);
+  /*text-align: center;*/
+  color: #ffffff;
+}
+
+.org-logo-img {
+  position: relative;
+  top: -18mm;
+  left: 52mm;
+}
+
+.org-name {
+  line-height: 94%;
+  text-align-last: inherit;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 94%;
+  text-align-last: inherit;
+  position: relative;
+  top: -17mm;
+    left: 82mm;
+  /* font-style: oblique; */
+  font-size: 4mm;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.org-slogan {
+  position: relative;
+  text-transform: uppercase;
+  color: #ffffff;
+  top: -14mm;
+  left: 65mm;
+  font-size: 2mm;
+}
+
+.founder {
+  font-size: 5mm;
+  position: relative;
+  top: -40mm;
+  left: 15mm;
+}
+
+.position {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 2mm;
+  color: #333;
+  top: -41mm;
+  left: 10mm;
+}
+
+.org-address {
+  position: absolute;
+  top: 4mm;
+  left: 38mm;
+  font-style: normal;
+  color:#333;
+}
+
+
+
+.org-email {
+  position: absolute;
+  top: 4mm;
+  left: 34mm;
+  font-style: normal;
+  color:#333;
+}
+
+.org-phone {
+  position: relative;
+    top: -32mm;
+    left: 2mm;
+  font-style: normal;
+  /*font-size: 9pt;*/
+  color:#333;
+}
+
+.org-website {
+  position: relative;
+  font-style: normal;
+ /* font-size: 9pt;*/
+  color:#333;
+  top: -30mm;
+  left: 2mm;
+  
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
